@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Atleta</title>
+</head>
+<body>
+    <form action="../controlador/processa_cadastra.php" method="post">
+        <label>Informe o Nome:</label>
+        <input type="text" name="nome" required>
+        <br>
+        <label>Informe a Academia:</label>
+        <input type="text" name="academia" required>
+        <br>
+        <label>Informe o Sexo:</label>
+        <input type="text" name="sexo" required>
+        <br>
+        <label>Informe a Data de Nascimento:</label>
+        <input type="date" name="dataNascimento" required>
+        <br>
+        <label>Informe o número Telefone:</label>
+        <input type="text" name="telefone" required>
+        <br>
+        <label>Informe o E-Mail:</label>
+        <input type="email" name="email" required>
+        <br>
+        <label>Informe o Senha:</label>
+        <input type="password" name="senha" required>
+        <br>
+        <input type="submit" value="Enviar">
+</body>
+</html>

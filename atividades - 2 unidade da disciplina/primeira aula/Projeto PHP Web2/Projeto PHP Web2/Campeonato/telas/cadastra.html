@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Campeonato</title>
+</head>
+<body>
+    <form action="../controlador/processa_cadastra.php" method="post">
+        <label>Informe o Nome do Evento:</label>
+        <input type="text" name="nome" required>
+        <br>
+        <label>Informe o local de realização do Evento:</label>
+        <input type="text" name="local" required>
+        <br>
+        <label>Informe a data do Evento:</label>
+        <input type="date" name="data" required>
+        <br>
+        <label>Informe o Organizador do Evento:</label>
+        <input type="text" name="organizador" required>
+        <br>
+        <label>Informe o CNPJ do Organizador do Evento:</label>
+        <input type="text" name="cnpj" required>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
